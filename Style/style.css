@@ -1,35 +1,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 body {
-    background-color: #464567;
+    background-color: #3C3C5B;
     font-family: 'Roboto', sans-serif;
 }
+
 menu {
     background-color: #2E2E47;
 }
-.background-nav{
+
+.background-nav {
     background-color: #464567;
 }
-.padding-body{
+
+.padding-body {
     padding-top: 32px;
-    padding-bottom: 32px;
+    padding-bottom: 24px;
     padding-left: 64px;
     padding-right: 64px;
 }
-.padding-col{
+
+.padding-col {
     padding-top: 120px;
-    padding-bottom: 120px;
     padding-left: none;
     padding-right: none;
 }
-.text-green{
-    color:#1DFF9E;
-font-family: Roboto;
 
-font-style: normal;
-font-weight: 700;
-line-height: normal;
+.text-green {
+    color: #1DFF9E;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
-.background-button{
-    background-color: #605F8E;;
+
+.background-button {
+    background-color: #605F8E;
 }
