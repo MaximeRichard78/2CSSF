@@ -4,10 +4,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Fonction pour gérer le clic sur le bouton de menu
     menuButton.addEventListener("click", function () {
-      if (menu.classList.contains("d-none")) {
-        menu.classList.remove("d-none");
-      } else {
-        menu.classList.add("d-none");
-      }
+        if (menu.classList.contains("d-none")) {
+            menu.classList.remove("d-none");
+        } else {
+            menu.classList.add("d-none");
+        }
     });
-  });
+});
