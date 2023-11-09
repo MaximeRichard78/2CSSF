@@ -45,3 +45,14 @@ menu {
 .menu-toggle.show {
     display: block;
 }
+
+@media screen and (min-width:992px) {
+    .height-nav{
+        height: 100vh;
+    }
+}
+@media screen and (max-width:992px) {
+    .height-nav{
+        min-height: 100%;
+    }
+}
